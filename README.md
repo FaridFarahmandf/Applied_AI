@@ -3,7 +3,7 @@
 
 # Museum Image Classifier: Indoor vs. Outdoor
 
-This repository contains the implementation of a binary image classification project to distinguish indoor and outdoor museum scenes using classical machine learning and custom Convolutional Neural Networks (CNNs). The project leverages the MIT Places dataset and achieves state-of-the-art performance with a custom DeepCNN model, reaching over 97% accuracy.
+This repository contains the implementation of a binary image classification project to distinguish indoor and outdoor museum scenes using classical machine learning and custom Convolutional Neural Networks (CNNs). The project leverages the dataset and achieves state-of-the-art performance with a custom DeepCNN model, reaching over 97% accuracy.
 
 ## Project Overview
 
@@ -27,29 +27,21 @@ The project is divided into two phases:
 ## Repository Structure
 
 ```
-museum-image-classifier/
-├── data/                    # Placeholder for MIT Places dataset (not included due to size)
-├── models/                  # Saved model checkpoints (optional)
-├── notebooks/               # Jupyter notebooks for data preprocessing, training, and evaluation
-│   ├── preprocessing.ipynb
-│   ├── classical_models.ipynb
-│   ├── cnn_training.ipynb
-│   └── evaluation.ipynb
-├── src/                     # Source code for models and utilities
-│   ├── classical_models.py   # Classical ML model implementations
-│   ├── cnn_models.py        # Custom CNN architectures (SimpleCNN, DeepCNN, LightCNN)
-│   ├── dataset.py           # Data loading and preprocessing
-│   └── utils.py             # Helper functions for training and evaluation
-├── requirements.txt         # Python dependencies
-├── README.md                # This file
-└── LICENSE                  # Project license
+Applied_AI/
+├── AI_Project.ipynb          # Initial exploration and classical ML models
+├── FINAL_Project.ipynb       # Final combined code for both phases
+├── FINAL_Project_Phase2.ipynb # Deep learning phase (CNN training and evaluation)
+├── Project.ipynb             # Early project code (classical ML focus)
+├── README.md                 # This file
+└── LICENSE                   # Project license (to be added)
 ```
 
 ## Installation
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/museum-image-classifier.git](https://github.com/FaridFarahmandf/Applied_AI.git
+   git clone https://github.com/FaridFarahmand/Applied_AI.git
+   cd Applied_AI
    ```
 
 2. **Set up a virtual environment** (optional but recommended):
@@ -117,8 +109,7 @@ python src/main.py --model deepcnn --data_path data/ --epochs 20
 - Seaborn
 - See `requirements.txt` for full list.
 
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
 
 ## Acknowledgments
 - MIT Places dataset: [Zhou et al., 2017](http://places.csail.mit.edu/)
