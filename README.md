@@ -112,6 +112,5 @@ python src/main.py --model deepcnn --data_path data/ --epochs 20
 
 
 ## Acknowledgments
-- MIT Places dataset: [Zhou et al., 2017](http://places.csail.mit.edu/)
 - Authors: Raymand Shojaie Aghabalaghe, Farid Farahmand, Amirmohammad Rezaeipour
 - Institution: Concordia University
