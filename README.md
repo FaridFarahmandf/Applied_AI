@@ -49,8 +49,7 @@ museum-image-classifier/
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/museum-image-classifier.git
-   cd museum-image-classifier
+   git clone https://github.com/your-username/museum-image-classifier.git](https://github.com/FaridFarahmandf/Applied_AI.git
    ```
 
 2. **Set up a virtual environment** (optional but recommended):
